@@ -28,10 +28,10 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 if num1 > 0 and num2 > 0:
-  print(''"positive"')
+  print('"positive"')
 elif num1 < 0 and num2 < 0:
-  print(''"negative"')
+  print('"negative"')
 elif num1 == 0 or num2 == 0:
-  print(''"zero"')
+  print('"zero"')
 else:
   print("opposite") 
