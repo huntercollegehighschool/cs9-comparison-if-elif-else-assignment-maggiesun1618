@@ -23,13 +23,13 @@ not divisible by 3
 number = int(input("Enter a number: "))
 
 if number > 0:
-  print("positive")
+  print(''"positive"')
 elif number < 0:
-  print("negative")
+  print(''"negative"')
 elif number == 0:
-  print("zero")
+  print(''"zero"')
 
 if number%3 == 0:
-  print("divisible by 3")
+  print(''"divisible by 3"')
 else: 
-  print("not divisible by 3")
+  print(''"not divisible by 3"')
